@@ -1,0 +1,7 @@
+|mux2to1_df_if
+iA => oSalida.DATAB
+iB => oSalida.DATAA
+iSelect => oSalida.OUTPUTSELECT
+oSalida << oSalida.DB_MAX_OUTPUT_PORT_TYPE
+
+
