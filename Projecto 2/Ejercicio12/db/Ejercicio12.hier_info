@@ -1,0 +1,36 @@
+|Ejercicio12
+iGray[0] => bcd.IN1
+iGray[1] => bcd.IN1
+iGray[2] => bcd.IN0
+iGray[3] => bcd.IN1
+iGray[3] => LessThan0.IN5
+iGray[3] => oLED[3].DATAIN
+iGray[3] => Equal0.IN0
+iGray[3] => Equal1.IN0
+iGray[3] => Equal2.IN0
+iGray[3] => Equal3.IN0
+iGray[3] => Equal4.IN0
+iGray[3] => Equal5.IN0
+iGray[3] => Equal6.IN0
+iGray[3] => Equal7.IN0
+iGray[3] => Equal8.IN3
+oDisplay5[0] << oDisplay5.DB_MAX_OUTPUT_PORT_TYPE
+oDisplay5[1] << oDisplay5.DB_MAX_OUTPUT_PORT_TYPE
+oDisplay5[2] << oDisplay5.DB_MAX_OUTPUT_PORT_TYPE
+oDisplay5[3] << oDisplay5.DB_MAX_OUTPUT_PORT_TYPE
+oDisplay5[4] << oDisplay5.DB_MAX_OUTPUT_PORT_TYPE
+oDisplay5[5] << oDisplay5.DB_MAX_OUTPUT_PORT_TYPE
+oDisplay5[6] << oDisplay5.DB_MAX_OUTPUT_PORT_TYPE
+oDisplay6[0] << LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+oDisplay6[1] << LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+oDisplay6[2] << LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+oDisplay6[3] << LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+oDisplay6[4] << <VCC>
+oDisplay6[5] << <VCC>
+oDisplay6[6] << LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+oLED[0] << bcd.DB_MAX_OUTPUT_PORT_TYPE
+oLED[1] << bcd.DB_MAX_OUTPUT_PORT_TYPE
+oLED[2] << bcd.DB_MAX_OUTPUT_PORT_TYPE
+oLED[3] << iGray[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,1147 @@
+TimeQuest Timing Analyzer report for Ejercicio12
+Wed Sep 23 20:31:02 2026
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow 1100mV 85C Model Fmax Summary
+  6. Timing Closure Recommendations
+  7. Slow 1100mV 85C Model Setup Summary
+  8. Slow 1100mV 85C Model Hold Summary
+  9. Slow 1100mV 85C Model Recovery Summary
+ 10. Slow 1100mV 85C Model Removal Summary
+ 11. Slow 1100mV 85C Model Minimum Pulse Width Summary
+ 12. Propagation Delay
+ 13. Minimum Propagation Delay
+ 14. Slow 1100mV 85C Model Metastability Report
+ 15. Slow 1100mV 0C Model Fmax Summary
+ 16. Slow 1100mV 0C Model Setup Summary
+ 17. Slow 1100mV 0C Model Hold Summary
+ 18. Slow 1100mV 0C Model Recovery Summary
+ 19. Slow 1100mV 0C Model Removal Summary
+ 20. Slow 1100mV 0C Model Minimum Pulse Width Summary
+ 21. Propagation Delay
+ 22. Minimum Propagation Delay
+ 23. Slow 1100mV 0C Model Metastability Report
+ 24. Fast 1100mV 85C Model Setup Summary
+ 25. Fast 1100mV 85C Model Hold Summary
+ 26. Fast 1100mV 85C Model Recovery Summary
+ 27. Fast 1100mV 85C Model Removal Summary
+ 28. Fast 1100mV 85C Model Minimum Pulse Width Summary
+ 29. Propagation Delay
+ 30. Minimum Propagation Delay
+ 31. Fast 1100mV 85C Model Metastability Report
+ 32. Fast 1100mV 0C Model Setup Summary
+ 33. Fast 1100mV 0C Model Hold Summary
+ 34. Fast 1100mV 0C Model Recovery Summary
+ 35. Fast 1100mV 0C Model Removal Summary
+ 36. Fast 1100mV 0C Model Minimum Pulse Width Summary
+ 37. Propagation Delay
+ 38. Minimum Propagation Delay
+ 39. Fast 1100mV 0C Model Metastability Report
+ 40. Multicorner Timing Analysis Summary
+ 41. Propagation Delay
+ 42. Minimum Propagation Delay
+ 43. Board Trace Model Assignments
+ 44. Input Transition Times
+ 45. Signal Integrity Metrics (Slow 1100mv 0c Model)
+ 46. Signal Integrity Metrics (Slow 1100mv 85c Model)
+ 47. Signal Integrity Metrics (Fast 1100mv 0c Model)
+ 48. Signal Integrity Metrics (Fast 1100mv 85c Model)
+ 49. Clock Transfers
+ 50. Report TCCS
+ 51. Report RSKM
+ 52. Unconstrained Paths
+ 53. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                       ;
++--------------------+----------------------------------------------------+
+; Quartus II Version ; Version 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name      ; Ejercicio12                                        ;
+; Device Family      ; Cyclone V                                          ;
+; Device Name        ; 5CEBA4F23C7                                        ;
+; Timing Models      ; Final                                              ;
+; Delay Model        ; Combined                                           ;
+; Rise/Fall Delays   ; Enabled                                            ;
++--------------------+----------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 8           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 8           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-8         ; < 0.1%      ;
+;     Processors 9-12        ;   0.0%      ;
++----------------------------+-------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+--------------------------------------
+; Slow 1100mV 85C Model Fmax Summary ;
+--------------------------------------
+No paths to report.
+
+
+----------------------------------
+; Timing Closure Recommendations ;
+----------------------------------
+HTML report is unavailable in plain text report export.
+
+
+---------------------------------------
+; Slow 1100mV 85C Model Setup Summary ;
+---------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1100mV 85C Model Hold Summary ;
+--------------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow 1100mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1100mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
+-----------------------------------------------------
+; Slow 1100mV 85C Model Minimum Pulse Width Summary ;
+-----------------------------------------------------
+No paths to report.
+
+
++---------------------------------------------------------------+
+; Propagation Delay                                             ;
++------------+--------------+--------+--------+--------+--------+
+; Input Port ; Output Port  ; RR     ; RF     ; FR     ; FF     ;
++------------+--------------+--------+--------+--------+--------+
+; iGray[0]   ; oDisplay5[0] ;        ; 7.581  ; 7.552  ;        ;
+; iGray[0]   ; oDisplay5[1] ; 7.172  ; 7.274  ; 7.321  ; 7.401  ;
+; iGray[0]   ; oDisplay5[2] ; 7.523  ; 7.684  ; 7.668  ; 7.803  ;
+; iGray[0]   ; oDisplay5[3] ; 7.841  ; 8.236  ; 7.987  ; 8.360  ;
+; iGray[0]   ; oDisplay5[4] ; 7.502  ;        ;        ; 7.803  ;
+; iGray[0]   ; oDisplay5[5] ; 7.799  ;        ;        ; 8.249  ;
+; iGray[0]   ; oDisplay5[6] ; 8.191  ; 8.592  ; 8.338  ; 8.713  ;
+; iGray[0]   ; oLED[0]      ; 9.923  ; 10.752 ; 10.071 ; 10.878 ;
+; iGray[1]   ; oDisplay5[0] ; 7.468  ; 7.647  ; 7.540  ; 7.707  ;
+; iGray[1]   ; oDisplay5[1] ; 7.232  ; 7.337  ; 7.305  ; 7.397  ;
+; iGray[1]   ; oDisplay5[2] ; 7.562  ; 7.727  ; 7.633  ; 7.786  ;
+; iGray[1]   ; oDisplay5[3] ; 7.877  ; 8.275  ; 7.949  ; 8.334  ;
+; iGray[1]   ; oDisplay5[4] ; 7.563  ;        ;        ; 7.808  ;
+; iGray[1]   ; oDisplay5[5] ; 7.858  ;        ;        ; 8.245  ;
+; iGray[1]   ; oDisplay5[6] ; 8.244  ; 8.649  ; 8.316  ; 8.709  ;
+; iGray[1]   ; oDisplay6[0] ;        ; 7.650  ; 7.819  ;        ;
+; iGray[1]   ; oDisplay6[1] ;        ; 10.553 ; 11.760 ;        ;
+; iGray[1]   ; oDisplay6[2] ;        ; 10.492 ; 11.689 ;        ;
+; iGray[1]   ; oDisplay6[3] ;        ; 7.647  ; 7.793  ;        ;
+; iGray[1]   ; oDisplay6[6] ;        ; 7.560  ; 7.744  ;        ;
+; iGray[1]   ; oLED[0]      ; 9.973  ; 10.805 ; 10.046 ; 10.865 ;
+; iGray[1]   ; oLED[1]      ; 9.320  ; 9.881  ; 9.391  ; 9.940  ;
+; iGray[2]   ; oDisplay5[0] ;        ; 8.121  ; 8.032  ;        ;
+; iGray[2]   ; oDisplay5[1] ; 7.737  ; 7.895  ; 7.912  ; 8.128  ;
+; iGray[2]   ; oDisplay5[2] ; 8.039  ; 8.248  ; 8.175  ; 8.440  ;
+; iGray[2]   ; oDisplay5[3] ; 8.414  ; 8.865  ; 8.589  ; 9.098  ;
+; iGray[2]   ; oDisplay5[4] ;        ; 8.236  ; 8.142  ;        ;
+; iGray[2]   ; oDisplay5[5] ; 8.369  ; 8.749  ; 8.546  ; 8.984  ;
+; iGray[2]   ; oDisplay5[6] ; 8.699  ; 9.148  ; 8.832  ; 9.337  ;
+; iGray[2]   ; oDisplay6[0] ; 7.876  ;        ;        ; 7.954  ;
+; iGray[2]   ; oDisplay6[1] ; 11.817 ;        ;        ; 10.857 ;
+; iGray[2]   ; oDisplay6[2] ; 11.746 ;        ;        ; 10.796 ;
+; iGray[2]   ; oDisplay6[3] ; 7.850  ;        ;        ; 7.951  ;
+; iGray[2]   ; oDisplay6[6] ; 7.801  ;        ;        ; 7.864  ;
+; iGray[2]   ; oLED[0]      ; 10.491 ; 11.376 ; 10.668 ; 11.611 ;
+; iGray[2]   ; oLED[1]      ; 9.443  ; 10.002 ; 9.626  ; 10.164 ;
+; iGray[2]   ; oLED[2]      ; 9.420  ; 9.836  ; 9.629  ; 9.997  ;
+; iGray[3]   ; oDisplay5[0] ; 7.951  ; 8.117  ; 8.175  ; 8.353  ;
+; iGray[3]   ; oDisplay5[1] ; 7.715  ; 7.807  ; 7.940  ; 8.042  ;
+; iGray[3]   ; oDisplay5[2] ; 8.024  ; 8.176  ; 8.244  ; 8.408  ;
+; iGray[3]   ; oDisplay5[3] ; 8.339  ; 8.724  ; 8.560  ; 8.955  ;
+; iGray[3]   ; oDisplay5[4] ; 8.047  ;        ;        ; 8.453  ;
+; iGray[3]   ; oDisplay5[5] ; 8.342  ; 8.656  ; 8.565  ; 8.889  ;
+; iGray[3]   ; oDisplay5[6] ; 8.729  ;        ;        ; 9.355  ;
+; iGray[3]   ; oDisplay6[0] ;        ; 8.004  ; 8.428  ;        ;
+; iGray[3]   ; oDisplay6[1] ;        ; 10.907 ; 12.369 ;        ;
+; iGray[3]   ; oDisplay6[2] ;        ; 10.846 ; 12.298 ;        ;
+; iGray[3]   ; oDisplay6[3] ;        ; 8.001  ; 8.402  ;        ;
+; iGray[3]   ; oDisplay6[6] ;        ; 7.914  ; 8.353  ;        ;
+; iGray[3]   ; oLED[0]      ; 10.458 ; 11.277 ; 10.681 ; 11.510 ;
+; iGray[3]   ; oLED[1]      ; 9.803  ; 10.351 ; 10.026 ; 10.585 ;
+; iGray[3]   ; oLED[2]      ; 9.099  ; 9.482  ; 9.292  ; 9.630  ;
+; iGray[3]   ; oLED[3]      ; 7.606  ;        ;        ; 7.949  ;
++------------+--------------+--------+--------+--------+--------+
+
+
++---------------------------------------------------------------+
+; Minimum Propagation Delay                                     ;
++------------+--------------+--------+--------+--------+--------+
+; Input Port ; Output Port  ; RR     ; RF     ; FR     ; FF     ;
++------------+--------------+--------+--------+--------+--------+
+; iGray[0]   ; oDisplay5[0] ;        ; 6.896  ; 6.896  ;        ;
+; iGray[0]   ; oDisplay5[1] ; 6.584  ; 6.665  ; 6.700  ; 6.766  ;
+; iGray[0]   ; oDisplay5[2] ; 6.880  ; 6.978  ; 6.993  ; 7.074  ;
+; iGray[0]   ; oDisplay5[3] ; 7.125  ; 7.360  ; 7.239  ; 7.459  ;
+; iGray[0]   ; oDisplay5[4] ; 6.858  ;        ;        ; 7.068  ;
+; iGray[0]   ; oDisplay5[5] ; 7.106  ;        ;        ; 7.404  ;
+; iGray[0]   ; oDisplay5[6] ; 7.449  ; 7.677  ; 7.563  ; 7.774  ;
+; iGray[0]   ; oLED[0]      ; 9.072  ; 9.693  ; 9.188  ; 9.794  ;
+; iGray[1]   ; oDisplay5[0] ; 6.790  ; 6.925  ; 6.856  ; 6.987  ;
+; iGray[1]   ; oDisplay5[1] ; 6.599  ; 6.701  ; 6.666  ; 6.763  ;
+; iGray[1]   ; oDisplay5[2] ; 6.868  ; 6.988  ; 6.932  ; 7.048  ;
+; iGray[1]   ; oDisplay5[3] ; 7.120  ; 7.376  ; 7.185  ; 7.436  ;
+; iGray[1]   ; oDisplay5[4] ; 6.864  ;        ;        ; 7.063  ;
+; iGray[1]   ; oDisplay5[5] ; 7.121  ;        ;        ; 7.401  ;
+; iGray[1]   ; oDisplay5[6] ; 7.450  ; 7.700  ; 7.514  ; 7.760  ;
+; iGray[1]   ; oDisplay6[0] ;        ; 6.962  ; 7.115  ;        ;
+; iGray[1]   ; oDisplay6[1] ;        ; 9.556  ; 10.467 ;        ;
+; iGray[1]   ; oDisplay6[2] ;        ; 9.490  ; 10.389 ;        ;
+; iGray[1]   ; oDisplay6[3] ;        ; 6.955  ; 7.087  ;        ;
+; iGray[1]   ; oDisplay6[6] ;        ; 6.873  ; 7.033  ;        ;
+; iGray[1]   ; oLED[0]      ; 9.081  ; 9.723  ; 9.146  ; 9.783  ;
+; iGray[1]   ; oLED[1]      ; 8.491  ; 8.887  ; 8.557  ; 8.949  ;
+; iGray[2]   ; oDisplay5[0] ;        ; 7.315  ; 7.323  ;        ;
+; iGray[2]   ; oDisplay5[1] ; 7.091  ; 7.149  ; 7.227  ; 7.331  ;
+; iGray[2]   ; oDisplay5[2] ; 7.330  ; 7.418  ; 7.444  ; 7.564  ;
+; iGray[2]   ; oDisplay5[3] ; 7.640  ; 7.852  ; 7.776  ; 8.034  ;
+; iGray[2]   ; oDisplay5[4] ;        ; 7.403  ; 7.411  ;        ;
+; iGray[2]   ; oDisplay5[5] ; 7.618  ; 7.792  ; 7.756  ; 7.976  ;
+; iGray[2]   ; oDisplay5[6] ; 7.892  ; 8.110  ; 8.003  ; 8.253  ;
+; iGray[2]   ; oDisplay6[0] ; 7.192  ;        ;        ; 7.262  ;
+; iGray[2]   ; oDisplay6[1] ; 10.544 ;        ;        ; 9.856  ;
+; iGray[2]   ; oDisplay6[2] ; 10.466 ;        ;        ; 9.790  ;
+; iGray[2]   ; oDisplay6[3] ; 7.164  ;        ;        ; 7.255  ;
+; iGray[2]   ; oDisplay6[6] ; 7.110  ;        ;        ; 7.173  ;
+; iGray[2]   ; oLED[0]      ; 9.583  ; 10.181 ; 9.721  ; 10.365 ;
+; iGray[2]   ; oLED[1]      ; 8.643  ; 9.019  ; 8.783  ; 9.145  ;
+; iGray[2]   ; oLED[2]      ; 8.564  ; 8.898  ; 8.759  ; 9.043  ;
+; iGray[3]   ; oDisplay5[0] ; 7.210  ; 7.346  ; 7.417  ; 7.546  ;
+; iGray[3]   ; oDisplay5[1] ; 7.020  ; 7.121  ; 7.227  ; 7.321  ;
+; iGray[3]   ; oDisplay5[2] ; 7.269  ; 7.390  ; 7.473  ; 7.587  ;
+; iGray[3]   ; oDisplay5[3] ; 7.522  ; 7.777  ; 7.726  ; 7.974  ;
+; iGray[3]   ; oDisplay5[4] ; 7.285  ;        ;        ; 7.621  ;
+; iGray[3]   ; oDisplay5[5] ; 7.543  ; 7.760  ; 7.749  ; 7.959  ;
+; iGray[3]   ; oDisplay5[6] ; 7.870  ;        ;        ; 8.320  ;
+; iGray[3]   ; oDisplay6[0] ;        ; 7.299  ; 7.591  ;        ;
+; iGray[3]   ; oDisplay6[1] ;        ; 9.893  ; 10.943 ;        ;
+; iGray[3]   ; oDisplay6[2] ;        ; 9.827  ; 10.865 ;        ;
+; iGray[3]   ; oDisplay6[3] ;        ; 7.292  ; 7.563  ;        ;
+; iGray[3]   ; oDisplay6[6] ;        ; 7.210  ; 7.509  ;        ;
+; iGray[3]   ; oLED[0]      ; 9.502  ; 10.143 ; 9.708  ; 10.342 ;
+; iGray[3]   ; oLED[1]      ; 8.912  ; 9.308  ; 9.119  ; 9.508  ;
+; iGray[3]   ; oLED[2]      ; 8.316  ; 8.660  ; 8.507  ; 8.796  ;
+; iGray[3]   ; oLED[3]      ; 7.021  ;        ;        ; 7.258  ;
++------------+--------------+--------+--------+--------+--------+
+
+
+----------------------------------------------
+; Slow 1100mV 85C Model Metastability Report ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
+-------------------------------------
+; Slow 1100mV 0C Model Fmax Summary ;
+-------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1100mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Slow 1100mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1100mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1100mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Slow 1100mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
++---------------------------------------------------------------+
+; Propagation Delay                                             ;
++------------+--------------+--------+--------+--------+--------+
+; Input Port ; Output Port  ; RR     ; RF     ; FR     ; FF     ;
++------------+--------------+--------+--------+--------+--------+
+; iGray[0]   ; oDisplay5[0] ;        ; 7.389  ; 7.346  ;        ;
+; iGray[0]   ; oDisplay5[1] ; 6.984  ; 7.092  ; 7.145  ; 7.227  ;
+; iGray[0]   ; oDisplay5[2] ; 7.321  ; 7.502  ; 7.478  ; 7.628  ;
+; iGray[0]   ; oDisplay5[3] ; 7.669  ; 8.074  ; 7.832  ; 8.211  ;
+; iGray[0]   ; oDisplay5[4] ; 7.319  ;        ;        ; 7.643  ;
+; iGray[0]   ; oDisplay5[5] ; 7.614  ;        ;        ; 8.086  ;
+; iGray[0]   ; oDisplay5[6] ; 7.998  ; 8.454  ; 8.156  ; 8.581  ;
+; iGray[0]   ; oLED[0]      ; 9.724  ; 10.639 ; 9.886  ; 10.775 ;
+; iGray[1]   ; oDisplay5[0] ; 7.281  ; 7.486  ; 7.365  ; 7.556  ;
+; iGray[1]   ; oDisplay5[1] ; 7.081  ; 7.192  ; 7.166  ; 7.260  ;
+; iGray[1]   ; oDisplay5[2] ; 7.391  ; 7.576  ; 7.473  ; 7.644  ;
+; iGray[1]   ; oDisplay5[3] ; 7.745  ; 8.153  ; 7.828  ; 8.219  ;
+; iGray[1]   ; oDisplay5[4] ; 7.411  ;        ;        ; 7.682  ;
+; iGray[1]   ; oDisplay5[5] ; 7.710  ;        ;        ; 8.118  ;
+; iGray[1]   ; oDisplay5[6] ; 8.083  ; 8.543  ; 8.167  ; 8.613  ;
+; iGray[1]   ; oDisplay6[0] ;        ; 7.510  ; 7.692  ;        ;
+; iGray[1]   ; oDisplay6[1] ;        ; 10.371 ; 11.689 ;        ;
+; iGray[1]   ; oDisplay6[2] ;        ; 10.310 ; 11.620 ;        ;
+; iGray[1]   ; oDisplay6[3] ;        ; 7.496  ; 7.666  ;        ;
+; iGray[1]   ; oDisplay6[6] ;        ; 7.417  ; 7.612  ;        ;
+; iGray[1]   ; oLED[0]      ; 9.813  ; 10.731 ; 9.898  ; 10.799 ;
+; iGray[1]   ; oLED[1]      ; 9.092  ; 9.742  ; 9.177  ; 9.811  ;
+; iGray[2]   ; oDisplay5[0] ;        ; 7.973  ; 7.869  ;        ;
+; iGray[2]   ; oDisplay5[1] ; 7.606  ; 7.775  ; 7.803  ; 8.044  ;
+; iGray[2]   ; oDisplay5[2] ; 7.875  ; 8.111  ; 8.028  ; 8.328  ;
+; iGray[2]   ; oDisplay5[3] ; 8.301  ; 8.767  ; 8.497  ; 9.035  ;
+; iGray[2]   ; oDisplay5[4] ;        ; 8.113  ; 8.014  ;        ;
+; iGray[2]   ; oDisplay5[5] ; 8.241  ; 8.639  ; 8.438  ; 8.908  ;
+; iGray[2]   ; oDisplay5[6] ; 8.541  ; 9.052  ; 8.693  ; 9.268  ;
+; iGray[2]   ; oDisplay6[0] ; 7.708  ;        ;        ; 7.806  ;
+; iGray[2]   ; oDisplay6[1] ; 11.705 ;        ;        ; 10.667 ;
+; iGray[2]   ; oDisplay6[2] ; 11.636 ;        ;        ; 10.606 ;
+; iGray[2]   ; oDisplay6[3] ; 7.682  ;        ;        ; 7.792  ;
+; iGray[2]   ; oDisplay6[6] ; 7.628  ;        ;        ; 7.713  ;
+; iGray[2]   ; oLED[0]      ; 10.350 ; 11.326 ; 10.546 ; 11.594 ;
+; iGray[2]   ; oLED[1]      ; 9.177  ; 9.825  ; 9.387  ; 10.009 ;
+; iGray[2]   ; oLED[2]      ; 9.186  ; 9.681  ; 9.345  ; 9.874  ;
+; iGray[3]   ; oDisplay5[0] ; 7.770  ; 7.960  ; 8.001  ; 8.205  ;
+; iGray[3]   ; oDisplay5[1] ; 7.570  ; 7.664  ; 7.802  ; 7.909  ;
+; iGray[3]   ; oDisplay5[2] ; 7.858  ; 8.028  ; 8.088  ; 8.272  ;
+; iGray[3]   ; oDisplay5[3] ; 8.212  ; 8.603  ; 8.443  ; 8.847  ;
+; iGray[3]   ; oDisplay5[4] ; 7.900  ;        ;        ; 8.331  ;
+; iGray[3]   ; oDisplay5[5] ; 8.199  ; 8.522  ; 8.431  ; 8.767  ;
+; iGray[3]   ; oDisplay5[6] ; 8.572  ;        ;        ; 9.262  ;
+; iGray[3]   ; oDisplay6[0] ;        ; 7.838  ; 8.298  ;        ;
+; iGray[3]   ; oDisplay6[1] ;        ; 10.699 ; 12.295 ;        ;
+; iGray[3]   ; oDisplay6[2] ;        ; 10.638 ; 12.226 ;        ;
+; iGray[3]   ; oDisplay6[3] ;        ; 7.824  ; 8.272  ;        ;
+; iGray[3]   ; oDisplay6[6] ;        ; 7.745  ; 8.218  ;        ;
+; iGray[3]   ; oLED[0]      ; 10.302 ; 11.203 ; 10.534 ; 11.448 ;
+; iGray[3]   ; oLED[1]      ; 9.582  ; 10.215 ; 9.813  ; 10.460 ;
+; iGray[3]   ; oLED[2]      ; 8.808  ; 9.272  ; 9.010  ; 9.424  ;
+; iGray[3]   ; oLED[3]      ; 7.353  ;        ;        ; 7.751  ;
++------------+--------------+--------+--------+--------+--------+
+
+
++---------------------------------------------------------------+
+; Minimum Propagation Delay                                     ;
++------------+--------------+--------+--------+--------+--------+
+; Input Port ; Output Port  ; RR     ; RF     ; FR     ; FF     ;
++------------+--------------+--------+--------+--------+--------+
+; iGray[0]   ; oDisplay5[0] ;        ; 6.727  ; 6.699  ;        ;
+; iGray[0]   ; oDisplay5[1] ; 6.405  ; 6.498  ; 6.534  ; 6.609  ;
+; iGray[0]   ; oDisplay5[2] ; 6.685  ; 6.817  ; 6.809  ; 6.922  ;
+; iGray[0]   ; oDisplay5[3] ; 6.963  ; 7.215  ; 7.093  ; 7.327  ;
+; iGray[0]   ; oDisplay5[4] ; 6.683  ;        ;        ; 6.924  ;
+; iGray[0]   ; oDisplay5[5] ; 6.930  ;        ;        ; 7.262  ;
+; iGray[0]   ; oDisplay5[6] ; 7.265  ; 7.556  ; 7.390  ; 7.662  ;
+; iGray[0]   ; oLED[0]      ; 8.877  ; 9.592  ; 9.006  ; 9.703  ;
+; iGray[1]   ; oDisplay5[0] ; 6.603  ; 6.783  ; 6.675  ; 6.851  ;
+; iGray[1]   ; oDisplay5[1] ; 6.449  ; 6.564  ; 6.521  ; 6.632  ;
+; iGray[1]   ; oDisplay5[2] ; 6.694  ; 6.854  ; 6.764  ; 6.920  ;
+; iGray[1]   ; oDisplay5[3] ; 6.988  ; 7.262  ; 7.058  ; 7.328  ;
+; iGray[1]   ; oDisplay5[4] ; 6.710  ;        ;        ; 6.942  ;
+; iGray[1]   ; oDisplay5[5] ; 6.973  ;        ;        ; 7.284  ;
+; iGray[1]   ; oDisplay5[6] ; 7.287  ; 7.606  ; 7.358  ; 7.673  ;
+; iGray[1]   ; oDisplay6[0] ;        ; 6.820  ; 6.994  ;        ;
+; iGray[1]   ; oDisplay6[1] ;        ; 9.359  ; 10.414 ;        ;
+; iGray[1]   ; oDisplay6[2] ;        ; 9.293  ; 10.337 ;        ;
+; iGray[1]   ; oDisplay6[3] ;        ; 6.803  ; 6.965  ;        ;
+; iGray[1]   ; oDisplay6[6] ;        ; 6.727  ; 6.907  ;        ;
+; iGray[1]   ; oLED[0]      ; 8.914  ; 9.651  ; 8.985  ; 9.718  ;
+; iGray[1]   ; oLED[1]      ; 8.254  ; 8.747  ; 8.326  ; 8.814  ;
+; iGray[2]   ; oDisplay5[0] ;        ; 7.182  ; 7.162  ;        ;
+; iGray[2]   ; oDisplay5[1] ; 6.964  ; 7.032  ; 7.119  ; 7.239  ;
+; iGray[2]   ; oDisplay5[2] ; 7.168  ; 7.294  ; 7.295  ; 7.459  ;
+; iGray[2]   ; oDisplay5[3] ; 7.530  ; 7.757  ; 7.684  ; 7.963  ;
+; iGray[2]   ; oDisplay5[4] ;        ; 7.286  ; 7.282  ;        ;
+; iGray[2]   ; oDisplay5[5] ; 7.493  ; 7.689  ; 7.648  ; 7.896  ;
+; iGray[2]   ; oDisplay5[6] ; 7.739  ; 8.024  ; 7.865  ; 8.188  ;
+; iGray[2]   ; oDisplay6[0] ; 7.041  ;        ;        ; 7.117  ;
+; iGray[2]   ; oDisplay6[1] ; 10.461 ;        ;        ; 9.656  ;
+; iGray[2]   ; oDisplay6[2] ; 10.384 ;        ;        ; 9.590  ;
+; iGray[2]   ; oDisplay6[3] ; 7.012  ;        ;        ; 7.100  ;
+; iGray[2]   ; oDisplay6[6] ; 6.954  ;        ;        ; 7.024  ;
+; iGray[2]   ; oLED[0]      ; 9.439  ; 10.129 ; 9.593  ; 10.335 ;
+; iGray[2]   ; oLED[1]      ; 8.380  ; 8.851  ; 8.540  ; 8.993  ;
+; iGray[2]   ; oLED[2]      ; 8.306  ; 8.745  ; 8.536  ; 8.851  ;
+; iGray[3]   ; oDisplay5[0] ; 7.016  ; 7.197  ; 7.228  ; 7.401  ;
+; iGray[3]   ; oDisplay5[1] ; 6.862  ; 6.978  ; 7.074  ; 7.183  ;
+; iGray[3]   ; oDisplay5[2] ; 7.088  ; 7.249  ; 7.298  ; 7.451  ;
+; iGray[3]   ; oDisplay5[3] ; 7.382  ; 7.657  ; 7.592  ; 7.860  ;
+; iGray[3]   ; oDisplay5[4] ; 7.124  ;        ;        ; 7.492  ;
+; iGray[3]   ; oDisplay5[5] ; 7.387  ; 7.631  ; 7.598  ; 7.834  ;
+; iGray[3]   ; oDisplay5[6] ; 7.700  ;        ;        ; 8.223  ;
+; iGray[3]   ; oDisplay6[0] ;        ; 7.127  ; 7.450  ;        ;
+; iGray[3]   ; oDisplay6[1] ;        ; 9.666  ; 10.870 ;        ;
+; iGray[3]   ; oDisplay6[2] ;        ; 9.600  ; 10.793 ;        ;
+; iGray[3]   ; oDisplay6[3] ;        ; 7.110  ; 7.421  ;        ;
+; iGray[3]   ; oDisplay6[6] ;        ; 7.034  ; 7.363  ;        ;
+; iGray[3]   ; oLED[0]      ; 9.327  ; 10.065 ; 9.538  ; 10.269 ;
+; iGray[3]   ; oLED[1]      ; 8.668  ; 9.161  ; 8.880  ; 9.365  ;
+; iGray[3]   ; oLED[2]      ; 8.012  ; 8.444  ; 8.210  ; 8.580  ;
+; iGray[3]   ; oLED[3]      ; 6.768  ;        ;        ; 7.053  ;
++------------+--------------+--------+--------+--------+--------+
+
+
+---------------------------------------------
+; Slow 1100mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
+---------------------------------------
+; Fast 1100mV 85C Model Setup Summary ;
+---------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Fast 1100mV 85C Model Hold Summary ;
+--------------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast 1100mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Fast 1100mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
+-----------------------------------------------------
+; Fast 1100mV 85C Model Minimum Pulse Width Summary ;
+-----------------------------------------------------
+No paths to report.
+
+
++-----------------------------------------------------------+
+; Propagation Delay                                         ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; iGray[0]   ; oDisplay5[0] ;       ; 4.101 ; 4.360 ;       ;
+; iGray[0]   ; oDisplay5[1] ; 3.745 ; 3.909 ; 4.227 ; 4.388 ;
+; iGray[0]   ; oDisplay5[2] ; 3.943 ; 4.176 ; 4.425 ; 4.651 ;
+; iGray[0]   ; oDisplay5[3] ; 4.202 ; 4.567 ; 4.685 ; 5.047 ;
+; iGray[0]   ; oDisplay5[4] ; 3.982 ;       ;       ; 4.671 ;
+; iGray[0]   ; oDisplay5[5] ; 4.153 ;       ;       ; 4.954 ;
+; iGray[0]   ; oDisplay5[6] ; 4.363 ; 4.766 ; 4.846 ; 5.242 ;
+; iGray[0]   ; oLED[0]      ; 5.440 ; 6.218 ; 5.923 ; 6.698 ;
+; iGray[1]   ; oDisplay5[0] ; 3.849 ; 4.077 ; 4.260 ; 4.486 ;
+; iGray[1]   ; oDisplay5[1] ; 3.712 ; 3.884 ; 4.123 ; 4.293 ;
+; iGray[1]   ; oDisplay5[2] ; 3.893 ; 4.132 ; 4.302 ; 4.539 ;
+; iGray[1]   ; oDisplay5[3] ; 4.148 ; 4.521 ; 4.557 ; 4.928 ;
+; iGray[1]   ; oDisplay5[4] ; 3.951 ;       ;       ; 4.582 ;
+; iGray[1]   ; oDisplay5[5] ; 4.119 ;       ;       ; 4.858 ;
+; iGray[1]   ; oDisplay5[6] ; 4.326 ; 4.735 ; 4.737 ; 5.144 ;
+; iGray[1]   ; oDisplay6[0] ;       ; 3.943 ; 4.541 ;       ;
+; iGray[1]   ; oDisplay6[1] ;       ; 5.760 ; 7.211 ;       ;
+; iGray[1]   ; oDisplay6[2] ;       ; 5.750 ; 7.189 ;       ;
+; iGray[1]   ; oDisplay6[3] ;       ; 3.922 ; 4.486 ;       ;
+; iGray[1]   ; oDisplay6[6] ;       ; 3.887 ; 4.486 ;       ;
+; iGray[1]   ; oLED[0]      ; 5.399 ; 6.185 ; 5.810 ; 6.594 ;
+; iGray[1]   ; oLED[1]      ; 4.938 ; 5.504 ; 5.349 ; 5.913 ;
+; iGray[2]   ; oDisplay5[0] ;       ; 4.322 ; 4.553 ;       ;
+; iGray[2]   ; oDisplay5[1] ; 3.986 ; 4.175 ; 4.477 ; 4.690 ;
+; iGray[2]   ; oDisplay5[2] ; 4.167 ; 4.420 ; 4.644 ; 4.918 ;
+; iGray[2]   ; oDisplay5[3] ; 4.450 ; 4.840 ; 4.943 ; 5.357 ;
+; iGray[2]   ; oDisplay5[4] ;       ; 4.431 ; 4.671 ;       ;
+; iGray[2]   ; oDisplay5[5] ; 4.398 ; 4.745 ; 4.890 ; 5.260 ;
+; iGray[2]   ; oDisplay5[6] ; 4.577 ; 5.000 ; 5.053 ; 5.497 ;
+; iGray[2]   ; oDisplay6[0] ; 4.253 ;       ;       ; 4.564 ;
+; iGray[2]   ; oDisplay6[1] ; 6.923 ;       ;       ; 6.381 ;
+; iGray[2]   ; oDisplay6[2] ; 6.901 ;       ;       ; 6.371 ;
+; iGray[2]   ; oDisplay6[3] ; 4.198 ;       ;       ; 4.543 ;
+; iGray[2]   ; oDisplay6[6] ; 4.198 ;       ;       ; 4.508 ;
+; iGray[2]   ; oLED[0]      ; 5.683 ; 6.486 ; 6.175 ; 7.002 ;
+; iGray[2]   ; oLED[1]      ; 5.069 ; 5.627 ; 5.565 ; 6.120 ;
+; iGray[2]   ; oLED[2]      ; 4.958 ; 5.413 ; 5.449 ; 5.882 ;
+; iGray[3]   ; oDisplay5[0] ; 4.118 ; 4.343 ; 4.663 ; 4.891 ;
+; iGray[3]   ; oDisplay5[1] ; 3.981 ; 4.150 ; 4.526 ; 4.698 ;
+; iGray[3]   ; oDisplay5[2] ; 4.142 ; 4.378 ; 4.682 ; 4.921 ;
+; iGray[3]   ; oDisplay5[3] ; 4.397 ; 4.767 ; 4.937 ; 5.310 ;
+; iGray[3]   ; oDisplay5[4] ; 4.221 ;       ;       ; 4.988 ;
+; iGray[3]   ; oDisplay5[5] ; 4.389 ; 4.716 ; 4.934 ; 5.264 ;
+; iGray[3]   ; oDisplay5[6] ; 4.597 ;       ;       ; 5.550 ;
+; iGray[3]   ; oDisplay6[0] ;       ; 4.181 ; 4.946 ;       ;
+; iGray[3]   ; oDisplay6[1] ;       ; 5.998 ; 7.616 ;       ;
+; iGray[3]   ; oDisplay6[2] ;       ; 5.988 ; 7.594 ;       ;
+; iGray[3]   ; oDisplay6[3] ;       ; 4.160 ; 4.891 ;       ;
+; iGray[3]   ; oDisplay6[6] ;       ; 4.125 ; 4.891 ;       ;
+; iGray[3]   ; oLED[0]      ; 5.670 ; 6.453 ; 6.214 ; 7.000 ;
+; iGray[3]   ; oLED[1]      ; 5.209 ; 5.772 ; 5.753 ; 6.319 ;
+; iGray[3]   ; oLED[2]      ; 4.837 ; 5.256 ; 5.352 ; 5.758 ;
+; iGray[3]   ; oLED[3]      ; 4.039 ;       ;       ; 4.756 ;
++------------+--------------+-------+-------+-------+-------+
+
+
++-----------------------------------------------------------+
+; Minimum Propagation Delay                                 ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; iGray[0]   ; oDisplay5[0] ;       ; 3.790 ; 4.067 ;       ;
+; iGray[0]   ; oDisplay5[1] ; 3.498 ; 3.647 ; 3.954 ; 4.100 ;
+; iGray[0]   ; oDisplay5[2] ; 3.664 ; 3.851 ; 4.120 ; 4.302 ;
+; iGray[0]   ; oDisplay5[3] ; 3.870 ; 4.132 ; 4.328 ; 4.587 ;
+; iGray[0]   ; oDisplay5[4] ; 3.697 ;       ;       ; 4.317 ;
+; iGray[0]   ; oDisplay5[5] ; 3.840 ;       ;       ; 4.532 ;
+; iGray[0]   ; oDisplay5[6] ; 4.020 ; 4.309 ; 4.476 ; 4.760 ;
+; iGray[0]   ; oLED[0]      ; 5.034 ; 5.688 ; 5.492 ; 6.143 ;
+; iGray[1]   ; oDisplay5[0] ; 3.573 ; 3.761 ; 3.978 ; 4.164 ;
+; iGray[1]   ; oDisplay5[1] ; 3.460 ; 3.620 ; 3.865 ; 4.023 ;
+; iGray[1]   ; oDisplay5[2] ; 3.606 ; 3.804 ; 4.010 ; 4.206 ;
+; iGray[1]   ; oDisplay5[3] ; 3.814 ; 4.087 ; 4.218 ; 4.489 ;
+; iGray[1]   ; oDisplay5[4] ; 3.656 ;       ;       ; 4.242 ;
+; iGray[1]   ; oDisplay5[5] ; 3.802 ;       ;       ; 4.455 ;
+; iGray[1]   ; oDisplay5[6] ; 3.974 ; 4.274 ; 4.379 ; 4.677 ;
+; iGray[1]   ; oDisplay6[0] ;       ; 3.663 ; 4.243 ;       ;
+; iGray[1]   ; oDisplay6[1] ;       ; 5.285 ; 6.523 ;       ;
+; iGray[1]   ; oDisplay6[2] ;       ; 5.272 ; 6.496 ;       ;
+; iGray[1]   ; oDisplay6[3] ;       ; 3.640 ; 4.187 ;       ;
+; iGray[1]   ; oDisplay6[6] ;       ; 3.606 ; 4.184 ;       ;
+; iGray[1]   ; oLED[0]      ; 4.991 ; 5.656 ; 5.396 ; 6.059 ;
+; iGray[1]   ; oLED[1]      ; 4.567 ; 5.025 ; 4.972 ; 5.428 ;
+; iGray[2]   ; oDisplay5[0] ;       ; 3.967 ; 4.246 ;       ;
+; iGray[2]   ; oDisplay5[1] ; 3.721 ; 3.863 ; 4.184 ; 4.343 ;
+; iGray[2]   ; oDisplay5[2] ; 3.866 ; 4.049 ; 4.321 ; 4.514 ;
+; iGray[2]   ; oDisplay5[3] ; 4.100 ; 4.355 ; 4.565 ; 4.837 ;
+; iGray[2]   ; oDisplay5[4] ;       ; 4.056 ; 4.344 ;       ;
+; iGray[2]   ; oDisplay5[5] ; 4.068 ; 4.299 ; 4.532 ; 4.780 ;
+; iGray[2]   ; oDisplay5[6] ; 4.212 ; 4.497 ; 4.668 ; 4.963 ;
+; iGray[2]   ; oDisplay6[0] ; 3.962 ;       ;       ; 4.260 ;
+; iGray[2]   ; oDisplay6[1] ; 6.242 ;       ;       ; 5.882 ;
+; iGray[2]   ; oDisplay6[2] ; 6.215 ;       ;       ; 5.869 ;
+; iGray[2]   ; oDisplay6[3] ; 3.906 ;       ;       ; 4.237 ;
+; iGray[2]   ; oDisplay6[6] ; 3.903 ;       ;       ; 4.203 ;
+; iGray[2]   ; oLED[0]      ; 5.260 ; 5.907 ; 5.725 ; 6.389 ;
+; iGray[2]   ; oLED[1]      ; 4.698 ; 5.145 ; 5.164 ; 5.608 ;
+; iGray[2]   ; oLED[2]      ; 4.604 ; 4.977 ; 5.072 ; 5.443 ;
+; iGray[3]   ; oDisplay5[0] ; 3.807 ; 3.995 ; 4.333 ; 4.518 ;
+; iGray[3]   ; oDisplay5[1] ; 3.694 ; 3.854 ; 4.219 ; 4.377 ;
+; iGray[3]   ; oDisplay5[2] ; 3.822 ; 4.020 ; 4.344 ; 4.539 ;
+; iGray[3]   ; oDisplay5[3] ; 4.030 ; 4.303 ; 4.551 ; 4.822 ;
+; iGray[3]   ; oDisplay5[4] ; 3.891 ;       ;       ; 4.596 ;
+; iGray[3]   ; oDisplay5[5] ; 4.037 ; 4.286 ; 4.562 ; 4.809 ;
+; iGray[3]   ; oDisplay5[6] ; 4.209 ;       ;       ; 5.031 ;
+; iGray[3]   ; oDisplay6[0] ;       ; 3.876 ; 4.572 ;       ;
+; iGray[3]   ; oDisplay6[1] ;       ; 5.498 ; 6.852 ;       ;
+; iGray[3]   ; oDisplay6[2] ;       ; 5.485 ; 6.825 ;       ;
+; iGray[3]   ; oDisplay6[3] ;       ; 3.853 ; 4.516 ;       ;
+; iGray[3]   ; oDisplay6[6] ;       ; 3.819 ; 4.513 ;       ;
+; iGray[3]   ; oLED[0]      ; 5.226 ; 5.891 ; 5.750 ; 6.413 ;
+; iGray[3]   ; oLED[1]      ; 4.803 ; 5.262 ; 5.328 ; 5.783 ;
+; iGray[3]   ; oLED[2]      ; 4.482 ; 4.879 ; 4.988 ; 5.364 ;
+; iGray[3]   ; oLED[3]      ; 3.781 ;       ;       ; 4.438 ;
++------------+--------------+-------+-------+-------+-------+
+
+
+----------------------------------------------
+; Fast 1100mV 85C Model Metastability Report ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
+--------------------------------------
+; Fast 1100mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Fast 1100mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Fast 1100mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1100mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Fast 1100mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
++-----------------------------------------------------------+
+; Propagation Delay                                         ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; iGray[0]   ; oDisplay5[0] ;       ; 3.835 ; 4.131 ;       ;
+; iGray[0]   ; oDisplay5[1] ; 3.528 ; 3.668 ; 4.011 ; 4.145 ;
+; iGray[0]   ; oDisplay5[2] ; 3.717 ; 3.916 ; 4.200 ; 4.390 ;
+; iGray[0]   ; oDisplay5[3] ; 3.982 ; 4.291 ; 4.467 ; 4.770 ;
+; iGray[0]   ; oDisplay5[4] ; 3.770 ;       ;       ; 4.417 ;
+; iGray[0]   ; oDisplay5[5] ; 3.933 ;       ;       ; 4.678 ;
+; iGray[0]   ; oDisplay5[6] ; 4.171 ; 4.492 ; 4.652 ; 4.964 ;
+; iGray[0]   ; oLED[0]      ; 5.188 ; 5.842 ; 5.672 ; 6.320 ;
+; iGray[1]   ; oDisplay5[0] ; 3.619 ; 3.806 ; 4.041 ; 4.226 ;
+; iGray[1]   ; oDisplay5[1] ; 3.494 ; 3.639 ; 3.916 ; 4.059 ;
+; iGray[1]   ; oDisplay5[2] ; 3.666 ; 3.868 ; 4.087 ; 4.287 ;
+; iGray[1]   ; oDisplay5[3] ; 3.928 ; 4.242 ; 4.349 ; 4.661 ;
+; iGray[1]   ; oDisplay5[4] ; 3.737 ;       ;       ; 4.336 ;
+; iGray[1]   ; oDisplay5[5] ; 3.898 ;       ;       ; 4.591 ;
+; iGray[1]   ; oDisplay5[6] ; 4.132 ; 4.456 ; 4.553 ; 4.875 ;
+; iGray[1]   ; oDisplay6[0] ;       ; 3.708 ; 4.291 ;       ;
+; iGray[1]   ; oDisplay6[1] ;       ; 5.500 ; 6.784 ;       ;
+; iGray[1]   ; oDisplay6[2] ;       ; 5.479 ; 6.755 ;       ;
+; iGray[1]   ; oDisplay6[3] ;       ; 3.689 ; 4.237 ;       ;
+; iGray[1]   ; oDisplay6[6] ;       ; 3.652 ; 4.239 ;       ;
+; iGray[1]   ; oLED[0]      ; 5.147 ; 5.806 ; 5.568 ; 6.225 ;
+; iGray[1]   ; oLED[1]      ; 4.648 ; 5.127 ; 5.070 ; 5.547 ;
+; iGray[2]   ; oDisplay5[0] ;       ; 4.050 ; 4.324 ;       ;
+; iGray[2]   ; oDisplay5[1] ; 3.768 ; 3.932 ; 4.261 ; 4.449 ;
+; iGray[2]   ; oDisplay5[2] ; 3.940 ; 4.156 ; 4.417 ; 4.656 ;
+; iGray[2]   ; oDisplay5[3] ; 4.231 ; 4.564 ; 4.725 ; 5.082 ;
+; iGray[2]   ; oDisplay5[4] ;       ; 4.174 ; 4.457 ;       ;
+; iGray[2]   ; oDisplay5[5] ; 4.178 ; 4.470 ; 4.671 ; 4.986 ;
+; iGray[2]   ; oDisplay5[6] ; 4.382 ; 4.720 ; 4.859 ; 5.220 ;
+; iGray[2]   ; oDisplay6[0] ; 3.995 ;       ;       ; 4.330 ;
+; iGray[2]   ; oDisplay6[1] ; 6.488 ;       ;       ; 6.122 ;
+; iGray[2]   ; oDisplay6[2] ; 6.459 ;       ;       ; 6.101 ;
+; iGray[2]   ; oDisplay6[3] ; 3.941 ;       ;       ; 4.311 ;
+; iGray[2]   ; oDisplay6[6] ; 3.943 ;       ;       ; 4.274 ;
+; iGray[2]   ; oLED[0]      ; 5.431 ; 6.109 ; 5.924 ; 6.626 ;
+; iGray[2]   ; oLED[1]      ; 4.777 ; 5.251 ; 5.275 ; 5.743 ;
+; iGray[2]   ; oLED[2]      ; 4.642 ; 5.049 ; 5.120 ; 5.524 ;
+; iGray[3]   ; oDisplay5[0] ; 3.878 ; 4.062 ; 4.412 ; 4.599 ;
+; iGray[3]   ; oDisplay5[1] ; 3.753 ; 3.895 ; 4.287 ; 4.432 ;
+; iGray[3]   ; oDisplay5[2] ; 3.903 ; 4.102 ; 4.436 ; 4.638 ;
+; iGray[3]   ; oDisplay5[3] ; 4.165 ; 4.476 ; 4.698 ; 5.012 ;
+; iGray[3]   ; oDisplay5[4] ; 3.997 ;       ;       ; 4.710 ;
+; iGray[3]   ; oDisplay5[5] ; 4.158 ; 4.428 ; 4.692 ; 4.965 ;
+; iGray[3]   ; oDisplay5[6] ; 4.390 ;       ;       ; 5.248 ;
+; iGray[3]   ; oDisplay6[0] ;       ; 3.933 ; 4.665 ;       ;
+; iGray[3]   ; oDisplay6[1] ;       ; 5.725 ; 7.158 ;       ;
+; iGray[3]   ; oDisplay6[2] ;       ; 5.704 ; 7.129 ;       ;
+; iGray[3]   ; oDisplay6[3] ;       ; 3.914 ; 4.611 ;       ;
+; iGray[3]   ; oDisplay6[6] ;       ; 3.877 ; 4.613 ;       ;
+; iGray[3]   ; oLED[0]      ; 5.405 ; 6.061 ; 5.939 ; 6.598 ;
+; iGray[3]   ; oLED[1]      ; 4.907 ; 5.383 ; 5.441 ; 5.920 ;
+; iGray[3]   ; oLED[2]      ; 4.498 ; 4.877 ; 5.011 ; 5.375 ;
+; iGray[3]   ; oLED[3]      ; 3.747 ;       ;       ; 4.458 ;
++------------+--------------+-------+-------+-------+-------+
+
+
++-----------------------------------------------------------+
+; Minimum Propagation Delay                                 ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; iGray[0]   ; oDisplay5[0] ;       ; 3.548 ; 3.852 ;       ;
+; iGray[0]   ; oDisplay5[1] ; 3.286 ; 3.415 ; 3.749 ; 3.874 ;
+; iGray[0]   ; oDisplay5[2] ; 3.445 ; 3.616 ; 3.907 ; 4.072 ;
+; iGray[0]   ; oDisplay5[3] ; 3.657 ; 3.877 ; 4.122 ; 4.338 ;
+; iGray[0]   ; oDisplay5[4] ; 3.491 ;       ;       ; 4.085 ;
+; iGray[0]   ; oDisplay5[5] ; 3.628 ;       ;       ; 4.288 ;
+; iGray[0]   ; oDisplay5[6] ; 3.836 ; 4.063 ; 4.296 ; 4.517 ;
+; iGray[0]   ; oLED[0]      ; 4.795 ; 5.334 ; 5.260 ; 5.795 ;
+; iGray[1]   ; oDisplay5[0] ; 3.350 ; 3.515 ; 3.766 ; 3.929 ;
+; iGray[1]   ; oDisplay5[1] ; 3.247 ; 3.385 ; 3.663 ; 3.799 ;
+; iGray[1]   ; oDisplay5[2] ; 3.386 ; 3.566 ; 3.801 ; 3.979 ;
+; iGray[1]   ; oDisplay5[3] ; 3.601 ; 3.830 ; 4.016 ; 4.243 ;
+; iGray[1]   ; oDisplay5[4] ; 3.449 ;       ;       ; 4.011 ;
+; iGray[1]   ; oDisplay5[5] ; 3.589 ;       ;       ; 4.212 ;
+; iGray[1]   ; oDisplay5[6] ; 3.787 ; 4.023 ; 4.203 ; 4.437 ;
+; iGray[1]   ; oDisplay6[0] ;       ; 3.434 ; 4.002 ;       ;
+; iGray[1]   ; oDisplay6[1] ;       ; 5.040 ; 6.158 ;       ;
+; iGray[1]   ; oDisplay6[2] ;       ; 5.016 ; 6.125 ;       ;
+; iGray[1]   ; oDisplay6[3] ;       ; 3.414 ; 3.947 ;       ;
+; iGray[1]   ; oDisplay6[6] ;       ; 3.378 ; 3.948 ;       ;
+; iGray[1]   ; oLED[0]      ; 4.750 ; 5.298 ; 5.166 ; 5.712 ;
+; iGray[1]   ; oLED[1]      ; 4.290 ; 4.675 ; 4.706 ; 5.088 ;
+; iGray[2]   ; oDisplay5[0] ;       ; 3.723 ; 4.028 ;       ;
+; iGray[2]   ; oDisplay5[1] ; 3.511 ; 3.630 ; 3.977 ; 4.116 ;
+; iGray[2]   ; oDisplay5[2] ; 3.647 ; 3.813 ; 4.106 ; 4.283 ;
+; iGray[2]   ; oDisplay5[3] ; 3.891 ; 4.101 ; 4.357 ; 4.587 ;
+; iGray[2]   ; oDisplay5[4] ;       ; 3.817 ; 4.140 ;       ;
+; iGray[2]   ; oDisplay5[5] ; 3.857 ; 4.048 ; 4.323 ; 4.534 ;
+; iGray[2]   ; oDisplay5[6] ; 4.027 ; 4.249 ; 4.485 ; 4.718 ;
+; iGray[2]   ; oDisplay6[0] ; 3.713 ;       ;       ; 4.035 ;
+; iGray[2]   ; oDisplay6[1] ; 5.869 ;       ;       ; 5.641 ;
+; iGray[2]   ; oDisplay6[2] ; 5.836 ;       ;       ; 5.617 ;
+; iGray[2]   ; oDisplay6[3] ; 3.658 ;       ;       ; 4.015 ;
+; iGray[2]   ; oDisplay6[6] ; 3.659 ;       ;       ; 3.979 ;
+; iGray[2]   ; oLED[0]      ; 5.023 ; 5.552 ; 5.489 ; 6.038 ;
+; iGray[2]   ; oLED[1]      ; 4.420 ; 4.795 ; 4.891 ; 5.262 ;
+; iGray[2]   ; oLED[2]      ; 4.296 ; 4.634 ; 4.774 ; 5.086 ;
+; iGray[3]   ; oDisplay5[0] ; 3.577 ; 3.742 ; 4.089 ; 4.252 ;
+; iGray[3]   ; oDisplay5[1] ; 3.474 ; 3.613 ; 3.986 ; 4.122 ;
+; iGray[3]   ; oDisplay5[2] ; 3.594 ; 3.774 ; 4.104 ; 4.282 ;
+; iGray[3]   ; oDisplay5[3] ; 3.809 ; 4.039 ; 4.319 ; 4.546 ;
+; iGray[3]   ; oDisplay5[4] ; 3.676 ;       ;       ; 4.334 ;
+; iGray[3]   ; oDisplay5[5] ; 3.815 ; 4.027 ; 4.327 ; 4.535 ;
+; iGray[3]   ; oDisplay5[6] ; 4.014 ;       ;       ; 4.759 ;
+; iGray[3]   ; oDisplay6[0] ;       ; 3.636 ; 4.301 ;       ;
+; iGray[3]   ; oDisplay6[1] ;       ; 5.242 ; 6.457 ;       ;
+; iGray[3]   ; oDisplay6[2] ;       ; 5.218 ; 6.424 ;       ;
+; iGray[3]   ; oDisplay6[3] ;       ; 3.616 ; 4.246 ;       ;
+; iGray[3]   ; oDisplay6[6] ;       ; 3.580 ; 4.247 ;       ;
+; iGray[3]   ; oLED[0]      ; 4.977 ; 5.526 ; 5.488 ; 6.034 ;
+; iGray[3]   ; oLED[1]      ; 4.517 ; 4.902 ; 5.029 ; 5.411 ;
+; iGray[3]   ; oLED[2]      ; 4.163 ; 4.519 ; 4.663 ; 4.996 ;
+; iGray[3]   ; oLED[3]      ; 3.499 ;       ;       ; 4.149 ;
++------------+--------------+-------+-------+-------+-------+
+
+
+---------------------------------------------
+; Fast 1100mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++---------------------------------------------------------------+
+; Propagation Delay                                             ;
++------------+--------------+--------+--------+--------+--------+
+; Input Port ; Output Port  ; RR     ; RF     ; FR     ; FF     ;
++------------+--------------+--------+--------+--------+--------+
+; iGray[0]   ; oDisplay5[0] ;        ; 7.581  ; 7.552  ;        ;
+; iGray[0]   ; oDisplay5[1] ; 7.172  ; 7.274  ; 7.321  ; 7.401  ;
+; iGray[0]   ; oDisplay5[2] ; 7.523  ; 7.684  ; 7.668  ; 7.803  ;
+; iGray[0]   ; oDisplay5[3] ; 7.841  ; 8.236  ; 7.987  ; 8.360  ;
+; iGray[0]   ; oDisplay5[4] ; 7.502  ;        ;        ; 7.803  ;
+; iGray[0]   ; oDisplay5[5] ; 7.799  ;        ;        ; 8.249  ;
+; iGray[0]   ; oDisplay5[6] ; 8.191  ; 8.592  ; 8.338  ; 8.713  ;
+; iGray[0]   ; oLED[0]      ; 9.923  ; 10.752 ; 10.071 ; 10.878 ;
+; iGray[1]   ; oDisplay5[0] ; 7.468  ; 7.647  ; 7.540  ; 7.707  ;
+; iGray[1]   ; oDisplay5[1] ; 7.232  ; 7.337  ; 7.305  ; 7.397  ;
+; iGray[1]   ; oDisplay5[2] ; 7.562  ; 7.727  ; 7.633  ; 7.786  ;
+; iGray[1]   ; oDisplay5[3] ; 7.877  ; 8.275  ; 7.949  ; 8.334  ;
+; iGray[1]   ; oDisplay5[4] ; 7.563  ;        ;        ; 7.808  ;
+; iGray[1]   ; oDisplay5[5] ; 7.858  ;        ;        ; 8.245  ;
+; iGray[1]   ; oDisplay5[6] ; 8.244  ; 8.649  ; 8.316  ; 8.709  ;
+; iGray[1]   ; oDisplay6[0] ;        ; 7.650  ; 7.819  ;        ;
+; iGray[1]   ; oDisplay6[1] ;        ; 10.553 ; 11.760 ;        ;
+; iGray[1]   ; oDisplay6[2] ;        ; 10.492 ; 11.689 ;        ;
+; iGray[1]   ; oDisplay6[3] ;        ; 7.647  ; 7.793  ;        ;
+; iGray[1]   ; oDisplay6[6] ;        ; 7.560  ; 7.744  ;        ;
+; iGray[1]   ; oLED[0]      ; 9.973  ; 10.805 ; 10.046 ; 10.865 ;
+; iGray[1]   ; oLED[1]      ; 9.320  ; 9.881  ; 9.391  ; 9.940  ;
+; iGray[2]   ; oDisplay5[0] ;        ; 8.121  ; 8.032  ;        ;
+; iGray[2]   ; oDisplay5[1] ; 7.737  ; 7.895  ; 7.912  ; 8.128  ;
+; iGray[2]   ; oDisplay5[2] ; 8.039  ; 8.248  ; 8.175  ; 8.440  ;
+; iGray[2]   ; oDisplay5[3] ; 8.414  ; 8.865  ; 8.589  ; 9.098  ;
+; iGray[2]   ; oDisplay5[4] ;        ; 8.236  ; 8.142  ;        ;
+; iGray[2]   ; oDisplay5[5] ; 8.369  ; 8.749  ; 8.546  ; 8.984  ;
+; iGray[2]   ; oDisplay5[6] ; 8.699  ; 9.148  ; 8.832  ; 9.337  ;
+; iGray[2]   ; oDisplay6[0] ; 7.876  ;        ;        ; 7.954  ;
+; iGray[2]   ; oDisplay6[1] ; 11.817 ;        ;        ; 10.857 ;
+; iGray[2]   ; oDisplay6[2] ; 11.746 ;        ;        ; 10.796 ;
+; iGray[2]   ; oDisplay6[3] ; 7.850  ;        ;        ; 7.951  ;
+; iGray[2]   ; oDisplay6[6] ; 7.801  ;        ;        ; 7.864  ;
+; iGray[2]   ; oLED[0]      ; 10.491 ; 11.376 ; 10.668 ; 11.611 ;
+; iGray[2]   ; oLED[1]      ; 9.443  ; 10.002 ; 9.626  ; 10.164 ;
+; iGray[2]   ; oLED[2]      ; 9.420  ; 9.836  ; 9.629  ; 9.997  ;
+; iGray[3]   ; oDisplay5[0] ; 7.951  ; 8.117  ; 8.175  ; 8.353  ;
+; iGray[3]   ; oDisplay5[1] ; 7.715  ; 7.807  ; 7.940  ; 8.042  ;
+; iGray[3]   ; oDisplay5[2] ; 8.024  ; 8.176  ; 8.244  ; 8.408  ;
+; iGray[3]   ; oDisplay5[3] ; 8.339  ; 8.724  ; 8.560  ; 8.955  ;
+; iGray[3]   ; oDisplay5[4] ; 8.047  ;        ;        ; 8.453  ;
+; iGray[3]   ; oDisplay5[5] ; 8.342  ; 8.656  ; 8.565  ; 8.889  ;
+; iGray[3]   ; oDisplay5[6] ; 8.729  ;        ;        ; 9.355  ;
+; iGray[3]   ; oDisplay6[0] ;        ; 8.004  ; 8.428  ;        ;
+; iGray[3]   ; oDisplay6[1] ;        ; 10.907 ; 12.369 ;        ;
+; iGray[3]   ; oDisplay6[2] ;        ; 10.846 ; 12.298 ;        ;
+; iGray[3]   ; oDisplay6[3] ;        ; 8.001  ; 8.402  ;        ;
+; iGray[3]   ; oDisplay6[6] ;        ; 7.914  ; 8.353  ;        ;
+; iGray[3]   ; oLED[0]      ; 10.458 ; 11.277 ; 10.681 ; 11.510 ;
+; iGray[3]   ; oLED[1]      ; 9.803  ; 10.351 ; 10.026 ; 10.585 ;
+; iGray[3]   ; oLED[2]      ; 9.099  ; 9.482  ; 9.292  ; 9.630  ;
+; iGray[3]   ; oLED[3]      ; 7.606  ;        ;        ; 7.949  ;
++------------+--------------+--------+--------+--------+--------+
+
+
++-----------------------------------------------------------+
+; Minimum Propagation Delay                                 ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; iGray[0]   ; oDisplay5[0] ;       ; 3.548 ; 3.852 ;       ;
+; iGray[0]   ; oDisplay5[1] ; 3.286 ; 3.415 ; 3.749 ; 3.874 ;
+; iGray[0]   ; oDisplay5[2] ; 3.445 ; 3.616 ; 3.907 ; 4.072 ;
+; iGray[0]   ; oDisplay5[3] ; 3.657 ; 3.877 ; 4.122 ; 4.338 ;
+; iGray[0]   ; oDisplay5[4] ; 3.491 ;       ;       ; 4.085 ;
+; iGray[0]   ; oDisplay5[5] ; 3.628 ;       ;       ; 4.288 ;
+; iGray[0]   ; oDisplay5[6] ; 3.836 ; 4.063 ; 4.296 ; 4.517 ;
+; iGray[0]   ; oLED[0]      ; 4.795 ; 5.334 ; 5.260 ; 5.795 ;
+; iGray[1]   ; oDisplay5[0] ; 3.350 ; 3.515 ; 3.766 ; 3.929 ;
+; iGray[1]   ; oDisplay5[1] ; 3.247 ; 3.385 ; 3.663 ; 3.799 ;
+; iGray[1]   ; oDisplay5[2] ; 3.386 ; 3.566 ; 3.801 ; 3.979 ;
+; iGray[1]   ; oDisplay5[3] ; 3.601 ; 3.830 ; 4.016 ; 4.243 ;
+; iGray[1]   ; oDisplay5[4] ; 3.449 ;       ;       ; 4.011 ;
+; iGray[1]   ; oDisplay5[5] ; 3.589 ;       ;       ; 4.212 ;
+; iGray[1]   ; oDisplay5[6] ; 3.787 ; 4.023 ; 4.203 ; 4.437 ;
+; iGray[1]   ; oDisplay6[0] ;       ; 3.434 ; 4.002 ;       ;
+; iGray[1]   ; oDisplay6[1] ;       ; 5.040 ; 6.158 ;       ;
+; iGray[1]   ; oDisplay6[2] ;       ; 5.016 ; 6.125 ;       ;
+; iGray[1]   ; oDisplay6[3] ;       ; 3.414 ; 3.947 ;       ;
+; iGray[1]   ; oDisplay6[6] ;       ; 3.378 ; 3.948 ;       ;
+; iGray[1]   ; oLED[0]      ; 4.750 ; 5.298 ; 5.166 ; 5.712 ;
+; iGray[1]   ; oLED[1]      ; 4.290 ; 4.675 ; 4.706 ; 5.088 ;
+; iGray[2]   ; oDisplay5[0] ;       ; 3.723 ; 4.028 ;       ;
+; iGray[2]   ; oDisplay5[1] ; 3.511 ; 3.630 ; 3.977 ; 4.116 ;
+; iGray[2]   ; oDisplay5[2] ; 3.647 ; 3.813 ; 4.106 ; 4.283 ;
+; iGray[2]   ; oDisplay5[3] ; 3.891 ; 4.101 ; 4.357 ; 4.587 ;
+; iGray[2]   ; oDisplay5[4] ;       ; 3.817 ; 4.140 ;       ;
+; iGray[2]   ; oDisplay5[5] ; 3.857 ; 4.048 ; 4.323 ; 4.534 ;
+; iGray[2]   ; oDisplay5[6] ; 4.027 ; 4.249 ; 4.485 ; 4.718 ;
+; iGray[2]   ; oDisplay6[0] ; 3.713 ;       ;       ; 4.035 ;
+; iGray[2]   ; oDisplay6[1] ; 5.869 ;       ;       ; 5.641 ;
+; iGray[2]   ; oDisplay6[2] ; 5.836 ;       ;       ; 5.617 ;
+; iGray[2]   ; oDisplay6[3] ; 3.658 ;       ;       ; 4.015 ;
+; iGray[2]   ; oDisplay6[6] ; 3.659 ;       ;       ; 3.979 ;
+; iGray[2]   ; oLED[0]      ; 5.023 ; 5.552 ; 5.489 ; 6.038 ;
+; iGray[2]   ; oLED[1]      ; 4.420 ; 4.795 ; 4.891 ; 5.262 ;
+; iGray[2]   ; oLED[2]      ; 4.296 ; 4.634 ; 4.774 ; 5.086 ;
+; iGray[3]   ; oDisplay5[0] ; 3.577 ; 3.742 ; 4.089 ; 4.252 ;
+; iGray[3]   ; oDisplay5[1] ; 3.474 ; 3.613 ; 3.986 ; 4.122 ;
+; iGray[3]   ; oDisplay5[2] ; 3.594 ; 3.774 ; 4.104 ; 4.282 ;
+; iGray[3]   ; oDisplay5[3] ; 3.809 ; 4.039 ; 4.319 ; 4.546 ;
+; iGray[3]   ; oDisplay5[4] ; 3.676 ;       ;       ; 4.334 ;
+; iGray[3]   ; oDisplay5[5] ; 3.815 ; 4.027 ; 4.327 ; 4.535 ;
+; iGray[3]   ; oDisplay5[6] ; 4.014 ;       ;       ; 4.759 ;
+; iGray[3]   ; oDisplay6[0] ;       ; 3.636 ; 4.301 ;       ;
+; iGray[3]   ; oDisplay6[1] ;       ; 5.242 ; 6.457 ;       ;
+; iGray[3]   ; oDisplay6[2] ;       ; 5.218 ; 6.424 ;       ;
+; iGray[3]   ; oDisplay6[3] ;       ; 3.616 ; 4.246 ;       ;
+; iGray[3]   ; oDisplay6[6] ;       ; 3.580 ; 4.247 ;       ;
+; iGray[3]   ; oLED[0]      ; 4.977 ; 5.526 ; 5.488 ; 6.034 ;
+; iGray[3]   ; oLED[1]      ; 4.517 ; 4.902 ; 5.029 ; 5.411 ;
+; iGray[3]   ; oLED[2]      ; 4.163 ; 4.519 ; 4.663 ; 4.996 ;
+; iGray[3]   ; oLED[3]      ; 3.499 ;       ;       ; 4.149 ;
++------------+--------------+-------+-------+-------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                                                                   ;
++--------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; Pin          ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ; EBD File Name ; EBD Signal Name ; EBD Far-end ;
++--------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; oDisplay5[0] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oDisplay5[1] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oDisplay5[2] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oDisplay5[3] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oDisplay5[4] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oDisplay5[5] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oDisplay5[6] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oDisplay6[0] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oDisplay6[1] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oDisplay6[2] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oDisplay6[3] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oDisplay6[4] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oDisplay6[5] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oDisplay6[6] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oLED[0]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oLED[1]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oLED[2]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; oLED[3]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
++--------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+
+
++-------------------------------------------------------------+
+; Input Transition Times                                      ;
++----------+--------------+-----------------+-----------------+
+; Pin      ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++----------+--------------+-----------------+-----------------+
+; iGray[1] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; iGray[3] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; iGray[0] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; iGray[2] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++----------+--------------+-----------------+-----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1100mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin          ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; oDisplay5[0] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.88e-07 V                   ; 2.35 V              ; -0.0185 V           ; 0.153 V                              ; 0.099 V                              ; 4.6e-10 s                   ; 4.48e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.88e-07 V                  ; 2.35 V             ; -0.0185 V          ; 0.153 V                             ; 0.099 V                             ; 4.6e-10 s                  ; 4.48e-10 s                 ; No                        ; Yes                       ;
+; oDisplay5[1] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.19e-07 V                   ; 2.4 V               ; -0.039 V            ; 0.21 V                               ; 0.145 V                              ; 4.67e-10 s                  ; 4.63e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.19e-07 V                  ; 2.4 V              ; -0.039 V           ; 0.21 V                              ; 0.145 V                             ; 4.67e-10 s                 ; 4.63e-10 s                 ; No                        ; Yes                       ;
+; oDisplay5[2] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.19e-07 V                   ; 2.4 V               ; -0.039 V            ; 0.21 V                               ; 0.145 V                              ; 4.67e-10 s                  ; 4.63e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.19e-07 V                  ; 2.4 V              ; -0.039 V           ; 0.21 V                              ; 0.145 V                             ; 4.67e-10 s                 ; 4.63e-10 s                 ; No                        ; Yes                       ;
+; oDisplay5[3] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.88e-07 V                   ; 2.35 V              ; -0.0185 V           ; 0.153 V                              ; 0.099 V                              ; 4.6e-10 s                   ; 4.48e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.88e-07 V                  ; 2.35 V             ; -0.0185 V          ; 0.153 V                             ; 0.099 V                             ; 4.6e-10 s                  ; 4.48e-10 s                 ; No                        ; Yes                       ;
+; oDisplay5[4] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.88e-07 V                   ; 2.35 V              ; -0.0185 V           ; 0.153 V                              ; 0.099 V                              ; 4.6e-10 s                   ; 4.48e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.88e-07 V                  ; 2.35 V             ; -0.0185 V          ; 0.153 V                             ; 0.099 V                             ; 4.6e-10 s                  ; 4.48e-10 s                 ; No                        ; Yes                       ;
+; oDisplay5[5] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.88e-07 V                   ; 2.35 V              ; -0.0185 V           ; 0.153 V                              ; 0.099 V                              ; 4.6e-10 s                   ; 4.48e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.88e-07 V                  ; 2.35 V             ; -0.0185 V          ; 0.153 V                             ; 0.099 V                             ; 4.6e-10 s                  ; 4.48e-10 s                 ; No                        ; Yes                       ;
+; oDisplay5[6] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.15e-07 V                   ; 2.41 V              ; -0.0492 V           ; 0.181 V                              ; 0.116 V                              ; 4.54e-10 s                  ; 4.44e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.15e-07 V                  ; 2.41 V             ; -0.0492 V          ; 0.181 V                             ; 0.116 V                             ; 4.54e-10 s                 ; 4.44e-10 s                 ; No                        ; Yes                       ;
+; oDisplay6[0] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.19e-07 V                   ; 2.4 V               ; -0.039 V            ; 0.21 V                               ; 0.145 V                              ; 4.67e-10 s                  ; 4.63e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.19e-07 V                  ; 2.4 V              ; -0.039 V           ; 0.21 V                              ; 0.145 V                             ; 4.67e-10 s                 ; 4.63e-10 s                 ; No                        ; Yes                       ;
+; oDisplay6[1] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.15e-07 V                   ; 2.41 V              ; -0.0492 V           ; 0.181 V                              ; 0.116 V                              ; 4.54e-10 s                  ; 4.44e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.15e-07 V                  ; 2.41 V             ; -0.0492 V          ; 0.181 V                             ; 0.116 V                             ; 4.54e-10 s                 ; 4.44e-10 s                 ; No                        ; Yes                       ;
+; oDisplay6[2] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.15e-07 V                   ; 2.41 V              ; -0.0495 V           ; 0.18 V                               ; 0.115 V                              ; 4.54e-10 s                  ; 4.44e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.15e-07 V                  ; 2.41 V             ; -0.0495 V          ; 0.18 V                              ; 0.115 V                             ; 4.54e-10 s                 ; 4.44e-10 s                 ; No                        ; Yes                       ;
+; oDisplay6[3] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.88e-07 V                   ; 2.35 V              ; -0.0185 V           ; 0.153 V                              ; 0.099 V                              ; 4.6e-10 s                   ; 4.48e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.88e-07 V                  ; 2.35 V             ; -0.0185 V          ; 0.153 V                             ; 0.099 V                             ; 4.6e-10 s                  ; 4.48e-10 s                 ; No                        ; Yes                       ;
+; oDisplay6[4] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.88e-07 V                   ; 2.35 V              ; -0.0185 V           ; 0.153 V                              ; 0.099 V                              ; 4.6e-10 s                   ; 4.48e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.88e-07 V                  ; 2.35 V             ; -0.0185 V          ; 0.153 V                             ; 0.099 V                             ; 4.6e-10 s                  ; 4.48e-10 s                 ; No                        ; Yes                       ;
+; oDisplay6[5] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.88e-07 V                   ; 2.35 V              ; -0.0185 V           ; 0.153 V                              ; 0.099 V                              ; 4.6e-10 s                   ; 4.48e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.88e-07 V                  ; 2.35 V             ; -0.0185 V          ; 0.153 V                             ; 0.099 V                             ; 4.6e-10 s                  ; 4.48e-10 s                 ; No                        ; Yes                       ;
+; oDisplay6[6] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.19e-07 V                   ; 2.4 V               ; -0.039 V            ; 0.21 V                               ; 0.145 V                              ; 4.67e-10 s                  ; 4.63e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.19e-07 V                  ; 2.4 V              ; -0.039 V           ; 0.21 V                              ; 0.145 V                             ; 4.67e-10 s                 ; 4.63e-10 s                 ; No                        ; Yes                       ;
+; oLED[0]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.15e-07 V                   ; 2.41 V              ; -0.0492 V           ; 0.181 V                              ; 0.116 V                              ; 4.54e-10 s                  ; 4.44e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.15e-07 V                  ; 2.41 V             ; -0.0492 V          ; 0.181 V                             ; 0.116 V                             ; 4.54e-10 s                 ; 4.44e-10 s                 ; No                        ; Yes                       ;
+; oLED[1]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.15e-07 V                   ; 2.41 V              ; -0.0495 V           ; 0.18 V                               ; 0.115 V                              ; 4.54e-10 s                  ; 4.44e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.15e-07 V                  ; 2.41 V             ; -0.0495 V          ; 0.18 V                              ; 0.115 V                             ; 4.54e-10 s                 ; 4.44e-10 s                 ; No                        ; Yes                       ;
+; oLED[2]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.88e-07 V                   ; 2.35 V              ; -0.0185 V           ; 0.153 V                              ; 0.099 V                              ; 4.6e-10 s                   ; 4.48e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.88e-07 V                  ; 2.35 V             ; -0.0185 V          ; 0.153 V                             ; 0.099 V                             ; 4.6e-10 s                  ; 4.48e-10 s                 ; No                        ; Yes                       ;
+; oLED[3]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.19e-07 V                   ; 2.4 V               ; -0.039 V            ; 0.21 V                               ; 0.145 V                              ; 4.67e-10 s                  ; 4.63e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.19e-07 V                  ; 2.4 V              ; -0.039 V           ; 0.21 V                              ; 0.145 V                             ; 4.67e-10 s                 ; 4.63e-10 s                 ; No                        ; Yes                       ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1100mv 85c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin          ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; oDisplay5[0] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.27e-05 V                   ; 2.34 V              ; -0.0089 V           ; 0.206 V                              ; 0.058 V                              ; 4.97e-10 s                  ; 5.13e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.27e-05 V                  ; 2.34 V             ; -0.0089 V          ; 0.206 V                             ; 0.058 V                             ; 4.97e-10 s                 ; 5.13e-10 s                 ; Yes                       ; Yes                       ;
+; oDisplay5[1] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.56e-05 V                   ; 2.38 V              ; -0.026 V            ; 0.249 V                              ; 0.089 V                              ; 4.95e-10 s                  ; 6.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.56e-05 V                  ; 2.38 V             ; -0.026 V           ; 0.249 V                             ; 0.089 V                             ; 4.95e-10 s                 ; 6.01e-10 s                 ; No                        ; Yes                       ;
+; oDisplay5[2] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.56e-05 V                   ; 2.38 V              ; -0.026 V            ; 0.249 V                              ; 0.089 V                              ; 4.95e-10 s                  ; 6.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.56e-05 V                  ; 2.38 V             ; -0.026 V           ; 0.249 V                             ; 0.089 V                             ; 4.95e-10 s                 ; 6.01e-10 s                 ; No                        ; Yes                       ;
+; oDisplay5[3] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.27e-05 V                   ; 2.34 V              ; -0.0089 V           ; 0.206 V                              ; 0.058 V                              ; 4.97e-10 s                  ; 5.13e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.27e-05 V                  ; 2.34 V             ; -0.0089 V          ; 0.206 V                             ; 0.058 V                             ; 4.97e-10 s                 ; 5.13e-10 s                 ; Yes                       ; Yes                       ;
+; oDisplay5[4] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.27e-05 V                   ; 2.34 V              ; -0.0089 V           ; 0.206 V                              ; 0.058 V                              ; 4.97e-10 s                  ; 5.13e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.27e-05 V                  ; 2.34 V             ; -0.0089 V          ; 0.206 V                             ; 0.058 V                             ; 4.97e-10 s                 ; 5.13e-10 s                 ; Yes                       ; Yes                       ;
+; oDisplay5[5] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.27e-05 V                   ; 2.34 V              ; -0.0089 V           ; 0.206 V                              ; 0.058 V                              ; 4.97e-10 s                  ; 5.13e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.27e-05 V                  ; 2.34 V             ; -0.0089 V          ; 0.206 V                             ; 0.058 V                             ; 4.97e-10 s                 ; 5.13e-10 s                 ; Yes                       ; Yes                       ;
+; oDisplay5[6] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.52e-05 V                   ; 2.38 V              ; -0.032 V            ; 0.204 V                              ; 0.181 V                              ; 4.74e-10 s                  ; 4.85e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.52e-05 V                  ; 2.38 V             ; -0.032 V           ; 0.204 V                             ; 0.181 V                             ; 4.74e-10 s                 ; 4.85e-10 s                 ; No                        ; Yes                       ;
+; oDisplay6[0] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.56e-05 V                   ; 2.38 V              ; -0.026 V            ; 0.249 V                              ; 0.089 V                              ; 4.95e-10 s                  ; 6.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.56e-05 V                  ; 2.38 V             ; -0.026 V           ; 0.249 V                             ; 0.089 V                             ; 4.95e-10 s                 ; 6.01e-10 s                 ; No                        ; Yes                       ;
+; oDisplay6[1] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.52e-05 V                   ; 2.38 V              ; -0.032 V            ; 0.204 V                              ; 0.181 V                              ; 4.74e-10 s                  ; 4.85e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.52e-05 V                  ; 2.38 V             ; -0.032 V           ; 0.204 V                             ; 0.181 V                             ; 4.74e-10 s                 ; 4.85e-10 s                 ; No                        ; Yes                       ;
+; oDisplay6[2] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.52e-05 V                   ; 2.38 V              ; -0.0315 V           ; 0.205 V                              ; 0.182 V                              ; 4.74e-10 s                  ; 4.85e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.52e-05 V                  ; 2.38 V             ; -0.0315 V          ; 0.205 V                             ; 0.182 V                             ; 4.74e-10 s                 ; 4.85e-10 s                 ; No                        ; Yes                       ;
+; oDisplay6[3] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.27e-05 V                   ; 2.34 V              ; -0.0089 V           ; 0.206 V                              ; 0.058 V                              ; 4.97e-10 s                  ; 5.13e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.27e-05 V                  ; 2.34 V             ; -0.0089 V          ; 0.206 V                             ; 0.058 V                             ; 4.97e-10 s                 ; 5.13e-10 s                 ; Yes                       ; Yes                       ;
+; oDisplay6[4] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.27e-05 V                   ; 2.34 V              ; -0.0089 V           ; 0.206 V                              ; 0.058 V                              ; 4.97e-10 s                  ; 5.13e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.27e-05 V                  ; 2.34 V             ; -0.0089 V          ; 0.206 V                             ; 0.058 V                             ; 4.97e-10 s                 ; 5.13e-10 s                 ; Yes                       ; Yes                       ;
+; oDisplay6[5] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.27e-05 V                   ; 2.34 V              ; -0.0089 V           ; 0.206 V                              ; 0.058 V                              ; 4.97e-10 s                  ; 5.13e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.27e-05 V                  ; 2.34 V             ; -0.0089 V          ; 0.206 V                             ; 0.058 V                             ; 4.97e-10 s                 ; 5.13e-10 s                 ; Yes                       ; Yes                       ;
+; oDisplay6[6] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.56e-05 V                   ; 2.38 V              ; -0.026 V            ; 0.249 V                              ; 0.089 V                              ; 4.95e-10 s                  ; 6.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.56e-05 V                  ; 2.38 V             ; -0.026 V           ; 0.249 V                             ; 0.089 V                             ; 4.95e-10 s                 ; 6.01e-10 s                 ; No                        ; Yes                       ;
+; oLED[0]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.52e-05 V                   ; 2.38 V              ; -0.032 V            ; 0.204 V                              ; 0.181 V                              ; 4.74e-10 s                  ; 4.85e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.52e-05 V                  ; 2.38 V             ; -0.032 V           ; 0.204 V                             ; 0.181 V                             ; 4.74e-10 s                 ; 4.85e-10 s                 ; No                        ; Yes                       ;
+; oLED[1]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.52e-05 V                   ; 2.38 V              ; -0.0315 V           ; 0.205 V                              ; 0.182 V                              ; 4.74e-10 s                  ; 4.85e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.52e-05 V                  ; 2.38 V             ; -0.0315 V          ; 0.205 V                             ; 0.182 V                             ; 4.74e-10 s                 ; 4.85e-10 s                 ; No                        ; Yes                       ;
+; oLED[2]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.27e-05 V                   ; 2.34 V              ; -0.0089 V           ; 0.206 V                              ; 0.058 V                              ; 4.97e-10 s                  ; 5.13e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.27e-05 V                  ; 2.34 V             ; -0.0089 V          ; 0.206 V                             ; 0.058 V                             ; 4.97e-10 s                 ; 5.13e-10 s                 ; Yes                       ; Yes                       ;
+; oLED[3]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.56e-05 V                   ; 2.38 V              ; -0.026 V            ; 0.249 V                              ; 0.089 V                              ; 4.95e-10 s                  ; 6.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.56e-05 V                  ; 2.38 V             ; -0.026 V           ; 0.249 V                             ; 0.089 V                             ; 4.95e-10 s                 ; 6.01e-10 s                 ; No                        ; Yes                       ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Fast 1100mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin          ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; oDisplay5[0] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
+; oDisplay5[1] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.25e-06 V                   ; 2.9 V               ; -0.107 V            ; 0.378 V                              ; 0.16 V                               ; 2.87e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 4.25e-06 V                  ; 2.9 V              ; -0.107 V           ; 0.378 V                             ; 0.16 V                              ; 2.87e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
+; oDisplay5[2] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.25e-06 V                   ; 2.9 V               ; -0.107 V            ; 0.378 V                              ; 0.16 V                               ; 2.87e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 4.25e-06 V                  ; 2.9 V              ; -0.107 V           ; 0.378 V                             ; 0.16 V                              ; 2.87e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
+; oDisplay5[3] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
+; oDisplay5[4] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
+; oDisplay5[5] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
+; oDisplay5[6] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; oDisplay6[0] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.25e-06 V                   ; 2.9 V               ; -0.107 V            ; 0.378 V                              ; 0.16 V                               ; 2.87e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 4.25e-06 V                  ; 2.9 V              ; -0.107 V           ; 0.378 V                             ; 0.16 V                              ; 2.87e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
+; oDisplay6[1] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; oDisplay6[2] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.121 V            ; 0.326 V                              ; 0.297 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.121 V           ; 0.326 V                             ; 0.297 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; oDisplay6[3] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
+; oDisplay6[4] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
+; oDisplay6[5] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
+; oDisplay6[6] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.25e-06 V                   ; 2.9 V               ; -0.107 V            ; 0.378 V                              ; 0.16 V                               ; 2.87e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 4.25e-06 V                  ; 2.9 V              ; -0.107 V           ; 0.378 V                             ; 0.16 V                              ; 2.87e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
+; oLED[0]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; oLED[1]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.121 V            ; 0.326 V                              ; 0.297 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.121 V           ; 0.326 V                             ; 0.297 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; oLED[2]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
+; oLED[3]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.25e-06 V                   ; 2.9 V               ; -0.107 V            ; 0.378 V                              ; 0.16 V                               ; 2.87e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 4.25e-06 V                  ; 2.9 V              ; -0.107 V           ; 0.378 V                             ; 0.16 V                              ; 2.87e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Fast 1100mv 85c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin          ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; oDisplay5[0] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
+; oDisplay5[1] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000247 V                   ; 2.85 V              ; -0.0711 V           ; 0.204 V                              ; 0.181 V                              ; 4.55e-10 s                  ; 4.49e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000247 V                  ; 2.85 V             ; -0.0711 V          ; 0.204 V                             ; 0.181 V                             ; 4.55e-10 s                 ; 4.49e-10 s                 ; No                        ; No                        ;
+; oDisplay5[2] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000247 V                   ; 2.85 V              ; -0.0711 V           ; 0.204 V                              ; 0.181 V                              ; 4.55e-10 s                  ; 4.49e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000247 V                  ; 2.85 V             ; -0.0711 V          ; 0.204 V                             ; 0.181 V                             ; 4.55e-10 s                 ; 4.49e-10 s                 ; No                        ; No                        ;
+; oDisplay5[3] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
+; oDisplay5[4] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
+; oDisplay5[5] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
+; oDisplay5[6] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
+; oDisplay6[0] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000247 V                   ; 2.85 V              ; -0.0711 V           ; 0.204 V                              ; 0.181 V                              ; 4.55e-10 s                  ; 4.49e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000247 V                  ; 2.85 V             ; -0.0711 V          ; 0.204 V                             ; 0.181 V                             ; 4.55e-10 s                 ; 4.49e-10 s                 ; No                        ; No                        ;
+; oDisplay6[1] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
+; oDisplay6[2] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0814 V           ; 0.36 V                               ; 0.156 V                              ; 3e-10 s                     ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0814 V          ; 0.36 V                              ; 0.156 V                             ; 3e-10 s                    ; 4.34e-10 s                 ; No                        ; No                        ;
+; oDisplay6[3] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
+; oDisplay6[4] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
+; oDisplay6[5] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
+; oDisplay6[6] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000247 V                   ; 2.85 V              ; -0.0711 V           ; 0.204 V                              ; 0.181 V                              ; 4.55e-10 s                  ; 4.49e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000247 V                  ; 2.85 V             ; -0.0711 V          ; 0.204 V                             ; 0.181 V                             ; 4.55e-10 s                 ; 4.49e-10 s                 ; No                        ; No                        ;
+; oLED[0]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
+; oLED[1]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0814 V           ; 0.36 V                               ; 0.156 V                              ; 3e-10 s                     ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0814 V          ; 0.36 V                              ; 0.156 V                             ; 3e-10 s                    ; 4.34e-10 s                 ; No                        ; No                        ;
+; oLED[2]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
+; oLED[3]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000247 V                   ; 2.85 V              ; -0.0711 V           ; 0.204 V                              ; 0.181 V                              ; 4.55e-10 s                  ; 4.49e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000247 V                  ; 2.85 V             ; -0.0711 V          ; 0.204 V                             ; 0.181 V                             ; 4.55e-10 s                 ; 4.49e-10 s                 ; No                        ; No                        ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No non-DPA dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 4     ; 4    ;
+; Unconstrained Input Port Paths  ; 53    ; 53   ;
+; Unconstrained Output Ports      ; 16    ; 16   ;
+; Unconstrained Output Port Paths ; 53    ; 53   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+    Info: Processing started: Wed Sep 23 20:30:57 2026
+Info: Command: quartus_sta Ejercicio12 -c Ejercicio12
+Info: qsta_default_script.tcl version: #1
+Info (11104): Parallel Compilation has detected 12 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 8 of the 8 physical processors detected instead.
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'Ejercicio12.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow 1100mV 85C Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Slow 1100mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Fast 1100mV 85C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Fast 1100mV 0C Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 4927 megabytes
+    Info: Processing ended: Wed Sep 23 20:31:02 2026
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:05
+
+
